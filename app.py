@@ -21,7 +21,7 @@ if page == "Insurance Charges Prediction":
     st.subheader("Insurance Charges Prediction Model")
     
     # Load and display the dataset
-    data = load_data("https://github.com/Bilal-Rafique-coder/ML-Model-on-Streamlit/blob/main/datasets/insurance.csv")
+    data = load_data("insurance.csv")
     st.write("Dataset preview:")
     st.write(data.head())
     
@@ -46,7 +46,7 @@ elif page == "Titanic Survival Prediction":
     st.subheader("Titanic Survival Prediction Model")
     
     # Load and display the dataset
-    train_data = load_data("https://github.com/Bilal-Rafique-coder/ML-Model-on-Streamlit/blob/main/datasets/train.csv")
+    train_data = load_data("train.csv")
     st.write("Train dataset preview:")
     st.write(train_data.head())
     
@@ -72,7 +72,7 @@ elif page == "Diabetes Prediction":
     st.subheader("Pima Indian Diabetes Prediction Model")
     
     # Load and display the dataset
-    data = load_data("https://github.com/Bilal-Rafique-coder/ML-Model-on-Streamlit/blob/main/datasets/diabetes.csv")
+    data = load_data("diabetes.csv")
     st.write("Dataset preview:")
     st.write(data.head())
     
